@@ -1,38 +1,94 @@
-html, body {
-    margin: 0;
-}
 body {
-    background-color: #f1f1f1;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
     display: flex;
     justify-content: center;
+    margin: 40px 0px;
+
 }
+
 
 .wrapper {
     width: 1200px;
     display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+    border: solid 3px darkgreen;
+    border-radius: 5px;
 }
+
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 50px 15px ;
+    border-right: solid 3px darkgreen;
 }
+
+.menu h1 {
+    margin: 0px;
+}
+
+.menu ul {
+    padding-left: 15px;
+}
+
+.menu ul a {
+    color: darkgreen;
+}
+
+.menu ul a:hover {
+    color: white;
+}
+
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    height: 250px;
 }
+
 .content {
-    background-color: white;
+    background-color: darkgreen;
+    color: #beffc3;
     min-height: 300px;
     padding: 20px;
 }
+
+.content table{
+    color: darkgreen;
+    text-align: center;
+}
+
+thead{
+    background-color: #beffc3;
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: #beffc3;
+}
+
+tr :hover{
+    background-color: lime;
+    cursor: pointer;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    height: 200px;
+    background-color: lightgreen;
+    color: darkgreen;
+    padding-left: 20px;
+}
+
+.footer a {
+    color: darkgreen;
+}
+
+.footer a:hover{
+    color: white;
 }
