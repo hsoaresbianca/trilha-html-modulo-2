@@ -1,11 +1,9 @@
 body {
-    margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: lightgrey;
     display: flex;
     justify-content: center;
-    margin: 40px 0px;
-
+    margin: 1px 0px;
 }
 
 
@@ -15,7 +13,6 @@ body {
     border: solid 3px darkgreen;
     border-radius: 5px;
 }
-
 
 .main {
     display: flex;
